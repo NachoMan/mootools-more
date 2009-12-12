@@ -109,6 +109,11 @@
 			"desc":"Delegates events for child elements to their parents for greater efficiency."
 		},
 
+		"Element.ESI": {
+			"deps":["More", "Request.HTML"],
+			"desc":"Processes Edge-Side Include (ESI) directives."
+		},
+
 		"Element.Measure": {
 			"deps": ["More", "Element.Style"],
 			"desc": "Extends the Element native object to include methods useful in measuring dimensions."
